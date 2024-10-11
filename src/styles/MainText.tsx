@@ -6,4 +6,5 @@ export const MainText = styled.p`
   font-size: 12px;
   font-weight: 500;
   color: #abb3ba;
+  white-space: pre-line;
 `
