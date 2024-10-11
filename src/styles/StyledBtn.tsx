@@ -15,7 +15,7 @@ export const StyledBtn = styled.button<StyledBtnPropsType>`
   width: 86px;
   border: 1px solid ${theme.colors.default}; 
   border-radius: 5px;
-  font-size: 10px;
+  font-size: 0.625rem;
   font-weight: bold;
   line-height: 2;
   color: ${props => props.color || theme.colors.default}; 
