@@ -13,8 +13,8 @@ function App() {
                 <Card cardType={"primary"}>
                     <MainImg src={MainImage} alt="Main image"/>
                     <BottomSection>
-                        <MainHeader>Headline</MainHeader>
-                        <MainText>Faucibus. Faucibus. Sit sit sapien sit<br />tempusrisu ut. Sit molestie ornare in venen.</MainText>
+                        <MainHeader>{theme.headers.summerHeader}</MainHeader>
+                        <MainText>{theme.mainTexts.summerText}</MainText>
                         <StyledBtn btnType={"primary"} color={"#fff"} background={theme.colors.primary}>See more</StyledBtn>
                         <StyledBtn btnType={"outlined"} color={theme.colors.primary} background={"transparent"}>Save</StyledBtn>
                     </BottomSection>
@@ -22,8 +22,8 @@ function App() {
                 <Card cardType={"secondary"}>
                     <MainImg src={SecondaryImage} alt="Main image"/>
                     <BottomSection>
-                        <MainHeader>Прекрасный отдых в горах</MainHeader>
-                        <MainText>Почувствуй атмосферу праздника</MainText>
+                        <MainHeader>{theme.headers.winterHeader}</MainHeader>
+                        <MainText>{theme.mainTexts.winterText}</MainText>
                         <StyledBtn btnType={"primary"} color={"#fff"} background={theme.colors.secondary}>See more</StyledBtn>
                         <StyledBtn btnType={"outlined"} color={theme.colors.secondary} background={"transparent"}>Save</StyledBtn>
                     </BottomSection>
