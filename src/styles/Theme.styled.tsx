@@ -16,7 +16,7 @@ export const theme = {
 
     mainTexts: {
         summerText: "Faucibus. Faucibus. Sit sit sapien sit \ntempusrisu ut. Sit molestie ornare in venen.",
-        winterText: "Горы зовут!",
+        winterText: "Горы зовут тебя!",
         autumnText: "Жёлтая, красная, яркая - осень.",
         springText: "Вокруг всё цветёт, быть может и тебе пора сделать что-то новое?",
     },
