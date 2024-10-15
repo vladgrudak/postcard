@@ -7,4 +7,5 @@ export const MainText = styled.p`
   font-weight: 500;
   color: #abb3ba;
   white-space: pre-line;
+  flex-grow: 1;
 `

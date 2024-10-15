@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { theme } from "./Theme.styled";
 
 export const Box = styled.div`
   display: flex;
