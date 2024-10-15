@@ -7,12 +7,6 @@ export const Box = styled.div`
   justify-content: center;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
   background-color: #fff;
-  
-  @media ${theme.media.tablet} {
-    flex-direction: column;
-    justify-content: left;
-    row-gap: 20px;
-    padding-top: 20px;
-  }
 `

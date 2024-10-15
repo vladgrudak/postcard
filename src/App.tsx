@@ -9,7 +9,7 @@ import {StyledBtn} from "./styles/StyledBtn";
 import {Box} from "./styles/Box";
 import {Card} from "./styles/Card";
 import {MainImg} from "./styles/MainImg";
-import {MainHeader} from "./styles/MainHeader";
+import {MainTitle} from "./styles/MainTitle";
 import {BottomSection} from "./styles/BottomSection";
 import {MainText} from "./styles/MainText";
 
@@ -21,7 +21,7 @@ function App() {
                 <Card>
                     <MainImg src={MainImageSummer} alt="Main image"/>
                     <BottomSection>
-                        <MainHeader>{theme.headers.summerHeader}</MainHeader>
+                        <MainTitle>{theme.headers.summerHeader}</MainTitle>
                         <MainText>{theme.mainTexts.summerText}</MainText>
                         <StyledBtn btnType={"primary"} color={"#fff"} background={theme.colors.summer}>See more</StyledBtn>
                         <StyledBtn btnType={"outlined"} color={theme.colors.summer} background={"transparent"}>Save</StyledBtn>
@@ -31,7 +31,7 @@ function App() {
                 <Card>
                     <MainImg src={MainImageWinter} alt="Main image"/>
                     <BottomSection>
-                        <MainHeader>{theme.headers.winterHeader}</MainHeader>
+                        <MainTitle>{theme.headers.winterHeader}</MainTitle>
                         <MainText>{theme.mainTexts.winterText}</MainText>
                         <StyledBtn btnType={"primary"} color={"#fff"} background={theme.colors.winter}>See more</StyledBtn>
                         <StyledBtn btnType={"outlined"} color={theme.colors.winter} background={"transparent"}>Save</StyledBtn>
@@ -41,7 +41,7 @@ function App() {
                 <Card>
                     <MainImg src={MainImageAutumn} alt="Main image"/>
                     <BottomSection>
-                        <MainHeader>{theme.headers.autumnHeader}</MainHeader>
+                        <MainTitle>{theme.headers.autumnHeader}</MainTitle>
                         <MainText>{theme.mainTexts.autumnText}</MainText>
                         <StyledBtn btnType={"primary"} color={"#fff"} background={theme.colors.autumn}>See more</StyledBtn>
                         <StyledBtn btnType={"outlined"} color={theme.colors.autumn} background={"transparent"}>Save</StyledBtn>
@@ -51,7 +51,7 @@ function App() {
                 <Card>
                     <MainImg src={MainImageSpring} alt="Main image"/>
                     <BottomSection>
-                        <MainHeader>{theme.headers.springHeader}</MainHeader>
+                        <MainTitle>{theme.headers.springHeader}</MainTitle>
                         <MainText>{theme.mainTexts.springText}</MainText>
                         <StyledBtn btnType={"primary"} color={"#fff"} background={theme.colors.spring}>See more</StyledBtn>
                         <StyledBtn btnType={"outlined"} color={theme.colors.spring} background={"transparent"}>Save</StyledBtn>
